@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Firefox Network Logger",
+    "version": "1.0",
+    "description": "Logs network requests for specified domains",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
